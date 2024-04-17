@@ -1,0 +1,161 @@
+ /* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn{
+  background-color: ;
+  font-size: xx-large;
+  padding:1.2rem;
+  border-radius: 1.5rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: light greenyellow;
+} 
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+ */
+
+ .App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: light greenyellow;
+}
+
+h1 {
+  color: white;
+}
+
+.loading-container {
+  position: fixed; /* Keep it on top of everything */
+  top: 0;
+  left: 0;
+  width: 1000vw;
+  height: 1000vh; /* Cover the entire viewport */
+  background-color: #000000; /* Semi-transparent background */
+  display: flex; /* Center the loader horizontally */
+  justify-content: center;
+  align-items: center;
+}
+
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: Hex #0892d0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  background-color: greenyellow;
+  /* Green color */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Slight shadow effect */
+  transition: all 0.2s ease-in-out;
+  /* Smooth transition for effects */
+}
+
+/* Button hover effect */
+button:hover {
+  
+  background-color:grey;
+  /* Darker green on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* Increase shadow on hover */
+}
+
+/* Button pressed effect (active state) */
+button:active {
+  transform: translateY(2px);
+  /* Simulates button press by moving down slightly */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  /* Depressed shadow on click */
+}
+.fullscreen {
+  position: fixed; /* Fix the element to the viewport */
+  top: 0; /* Start from the top */
+  left: 0; /* Start from the left */
+  width: 100vw; /* Set width to 100 viewport width */
+  height: 100vh; /* Set height to 100 viewport height */
+  background-color: #f0f0f0; /* Set background color for full screen */
+}
+
