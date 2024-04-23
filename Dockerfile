@@ -17,4 +17,5 @@ COPY . .
 EXPOSE 5173
 
 # Run the development server (adjust command if different)
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "dev" ]
+
